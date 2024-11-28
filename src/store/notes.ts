@@ -13,6 +13,7 @@ interface Note {
   title: string;
   content: string;
   folderId: string;
+  userId?: string;
   createdAt: string;
   updatedAt: string;
 }

@@ -52,19 +52,6 @@ export function ViewNoteModal({ isOpen, note, onClose }: ViewNoteModalProps) {
                 </p>
               </div>
             </div>
-            
-            {note.tags && note.tags.length > 0 && (
-              <div className="mt-6 flex flex-wrap gap-2">
-                {note.tags.map((tag, index) => (
-                  <span
-                    key={index}
-                    className="px-2.5 py-1 rounded-full bg-violet-50 text-violet-600 text-sm font-medium"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            )}
           </div>
         </div>
       </div>

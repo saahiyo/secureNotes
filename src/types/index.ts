@@ -8,17 +8,16 @@ export interface Folder {
   id: string;
   name: string;
   userId: string;
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt: string;
+  updatedAt: string;
 }
 
 export interface Note {
   id: string;
   title: string;
   content: string;
-  type: 'note' | 'url' | 'password' | 'api_key';
   folderId: string;
-  userId: string;
-  createdAt: Date;
-  updatedAt: Date;
+  userId?: string;
+  createdAt: string;
+  updatedAt: string;
 }
