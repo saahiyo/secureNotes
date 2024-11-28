@@ -1,6 +1,6 @@
 # SecureNotes
 
-A secure note-taking application that prioritizes privacy and security while offering a seamless user experience. This project was developed with the assistance of AI Windsurf.
+A secure note-taking application that prioritizes privacy and security while offering a seamless user experience. This project was developed with the assistance of AI Ide Windsurf.
 
 ## Features
 
